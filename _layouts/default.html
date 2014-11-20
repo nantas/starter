@@ -11,6 +11,9 @@ title: 'This is my Site Title'
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
   <link href="{{site.url}}{{site.atom_path}}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+  <script src="http://cdnjscn.b0.upaiyun.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{site.url}}../js/jquery-tapir.min.js"></script>
+
 </head>
 <body>
   <div class='container'>
@@ -22,6 +25,9 @@ title: 'This is my Site Title'
             <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
             <a href='//github.com/prose/starter'>Fork on GitHub</a>
           </div>
+          <form class="navbar-search pull-right" action="search.html">
+              <input type="text" class="search-query" placeholder="Search">
+          </form>
           <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
         </div>
       </div>
