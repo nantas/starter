@@ -1,10 +1,10 @@
-baseurl: /starter
+url: 'http://nantas.github.io/starter'
 permalink: pretty
 markdown: rdiscount
 author:
     name:nantas
     email:nantas@gmail.com
-atom_path : /atom.xml
+atom_path : /starter/atom.xml
 prose:
   rooturl: '_posts'
   siteurl: 'http://prose.github.io/starter/'

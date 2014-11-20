@@ -12,4 +12,4 @@ Proin at eros non eros adipiscing mollis. Donec semper turpis sed diam. Sed cons
 [Edit this page](http://prose.io/#nantas/starter/edit/gh-pages/{{page.path}})
 
 拖拽自动上传图片到 media 文件夹：
-![36.png]({{site.baseurl}}/media/36.png)
+![36.png]({{site.url}}/media/36.png)
