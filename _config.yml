@@ -1,4 +1,4 @@
-url: 'http://nantas.github.io/starter'
+baseurl: /starter
 permalink: pretty
 markdown: rdiscount
 author:
