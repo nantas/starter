@@ -9,6 +9,9 @@ title: 搜索结果
   <div id="search_results">
   </div>
   <script>
-    $('#search_results').tapir({'token': '546dba3d34932d8eec000000'});
+    $('#search_results').tapir({
+        'token': '546dba3d34932d8eec000000',
+        'complete' : function() { alert("I'm done searching!"); }
+        });
   </script>
 </div>
