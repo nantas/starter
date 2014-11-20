@@ -12,4 +12,4 @@ Proin at eros non eros adipiscing mollis. Donec semper turpis sed diam. Sed cons
 
 [Edit this page](http://prose.io/#nantas/starter/edit/gh-pages/{{page.path}})
 
-![36.png](/media/36.png)
+![36.png]({{site.baseurl}}/media/36.png)
